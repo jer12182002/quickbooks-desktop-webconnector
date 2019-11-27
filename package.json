@@ -1,0 +1,183 @@
+{
+  "_from": "qbws",
+  "_id": "qbws@0.2.1",
+  "_inBundle": false,
+  "_integrity": "sha1-cpTfcPol5+PS99KU/bowegbxQ1E=",
+  "_location": "/qbws",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "qbws",
+    "name": "qbws",
+    "escapedName": "qbws",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/qbws/-/qbws-0.2.1.tgz",
+  "_shasum": "7294df70fa25e7e3d2f7d294fdba307a06f14351",
+  "_spec": "qbws",
+  "_where": "C:\\Users\\rende\\Desktop\\newQuickbook-shopify",
+  "author": {
+    "name": "John Ballantyne",
+    "email": "johnballantyne+npmjs@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/johnballantyne/qbws/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "1.1.1",
+    "express": "^4.17.1",
+    "node-uuid": "1.4.3",
+    "soap": "0.9.1",
+    "xmlbuilder": "2.6.4"
+  },
+  "deprecated": false,
+  "description": "a web server for QuickBooks Web Connector integration",
+  "devDependencies": {
+    "jshint": "2.1.x"
+  },
+  "engines": {
+    "node": ">= 0.12.7"
+  },
+  "homepage": "https://github.com/johnballantyne/qbws#readme",
+  "jscsConfig": {
+    "requireCurlyBraces": [
+      "if",
+      "else",
+      "for",
+      "while",
+      "do",
+      "try",
+      "catch"
+    ],
+    "requireSpaceAfterKeywords": [
+      "if",
+      "else",
+      "for",
+      "while",
+      "do",
+      "switch",
+      "case",
+      "return",
+      "try",
+      "catch",
+      "typeof"
+    ],
+    "requireSpaceBeforeBlockStatements": true,
+    "requireParenthesesAroundIIFE": true,
+    "requireSpacesInConditionalExpression": true,
+    "disallowSpacesInNamedFunctionExpression": {
+      "beforeOpeningRoundBrace": true
+    },
+    "disallowSpacesInFunctionDeclaration": {
+      "beforeOpeningRoundBrace": true
+    },
+    "requireSpaceBetweenArguments": true,
+    "requireMultipleVarDecl": {
+      "allExcept": [
+        "require"
+      ]
+    },
+    "requireVarDeclFirst": true,
+    "requireBlocksOnNewline": true,
+    "disallowEmptyBlocks": true,
+    "disallowSpacesInsideArrayBrackets": true,
+    "disallowSpacesInsideParentheses": true,
+    "disallowDanglingUnderscores": true,
+    "requireCommaBeforeLineBreak": true,
+    "disallowSpaceAfterPrefixUnaryOperators": true,
+    "disallowSpaceBeforePostfixUnaryOperators": true,
+    "disallowSpaceBeforeBinaryOperators": [
+      ","
+    ],
+    "requireSpacesInForStatement": true,
+    "requireSpacesInAnonymousFunctionExpression": {
+      "beforeOpeningRoundBrace": true,
+      "beforeOpeningCurlyBrace": true
+    },
+    "requireSpaceBeforeBinaryOperators": true,
+    "requireSpaceAfterBinaryOperators": true,
+    "disallowKeywords": [
+      "with",
+      "continue"
+    ],
+    "validateIndentation": 4,
+    "disallowMixedSpacesAndTabs": true,
+    "disallowTrailingWhitespace": true,
+    "disallowTrailingComma": true,
+    "disallowKeywordsOnNewLine": [
+      "else"
+    ],
+    "requireLineFeedAtFileEnd": true,
+    "requireCapitalizedConstructors": true,
+    "requireDotNotation": true,
+    "disallowNewlineBeforeBlockStatements": true,
+    "disallowMultipleLineStrings": true,
+    "requireSpaceBeforeObjectValues": true,
+    "disallowQuotedKeysInObjects": true,
+    "disallowSpaceAfterObjectKeys": true,
+    "maximumLineLength": 180,
+    "requireCamelCaseOrUpperCaseIdentifiers": true,
+    "requireCapitalizedComments": false,
+    "requireSpaceAfterLineComment": true,
+    "requireSpacesInFunction": {
+      "beforeOpeningCurlyBrace": true
+    },
+    "validateLineBreaks": "LF",
+    "validateQuoteMarks": "'"
+  },
+  "jshintConfig": {
+    "bitwise": true,
+    "curly": true,
+    "eqeqeq": true,
+    "es3": false,
+    "es5": false,
+    "forin": true,
+    "freeze": true,
+    "funcscope": false,
+    "futurehostile": true,
+    "latedef": "nofunc",
+    "noarg": true,
+    "nocomma": true,
+    "nonbsp": true,
+    "nonew": true,
+    "notypeof": false,
+    "shadow": "outer",
+    "singleGroups": true,
+    "undef": true,
+    "unused": true,
+    "varstmt": false,
+    "asi": false,
+    "boss": false,
+    "esnext": false,
+    "evil": false,
+    "expr": false,
+    "loopfunc": false,
+    "plusplus": true,
+    "node": true
+  },
+  "keywords": [
+    "qbwc",
+    "QuickBooks",
+    "QuickBooks Web Connector"
+  ],
+  "license": "MIT",
+  "name": "qbws",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnballantyne/qbws.git"
+  },
+  "scripts": {
+    "jshint": "jshint index.js test/client.js",
+    "test": "npm run-script jshint"
+  },
+  "version": "0.2.1"
+}
