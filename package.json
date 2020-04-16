@@ -35,7 +35,7 @@
     "body-parser": "^1.19.0",
     "chalk": "1.1.1",
     "express": "^4.17.1",
-    "node-uuid": "1.4.3",
+    "node-uuid": "1.4.8",
     "soap": "0.9.1",
     "xmlbuilder": "2.6.4"
   },
